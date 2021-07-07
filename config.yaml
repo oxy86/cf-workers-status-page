@@ -30,9 +30,18 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
+  - id: supersyntages-gr # unique identifier
+    name: www.supersyntages.gr
+    description: 'Recipes project site.' # default=empty
+    url: 'https://www.supersyntages.gr' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+
   - id: www-aggelies247-com
     name: www.aggelies247.com
-    description: 'Aggelies.'
+    description: 'Aggelies project site'
     url: 'https://www.aggelies247.com'
     method: GET
     expectStatus: 200
