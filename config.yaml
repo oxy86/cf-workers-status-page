@@ -1,6 +1,6 @@
 settings:
   title: 'Status Page'
-  url: 'https://status-page.eidam.dev' # used for Slack messages
+  url: 'https://status.webzein.gr' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # collects avg response times from CRON locations
@@ -15,6 +15,13 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
+  - id: www-webzein-gr
+    name: www.webzein.gr
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://www.webzein.gr'
+    method: GET
+    expectStatus: 200
+
   - id: socnetv-org # unique identifier
     name: socnetv.org
     description: 'Social Network Analysis and Visualisation software.' # default=empty
@@ -23,10 +30,10 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: www-webzein-gr
-    name: www.webzein.gr
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.webzein.gr'
+  - id: www-aggelies247-com
+    name: www.aggelies247.com
+    description: 'Aggelies.'
+    url: 'https://www.aggelies247.com'
     method: GET
     expectStatus: 200
 
