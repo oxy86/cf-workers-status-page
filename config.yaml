@@ -38,6 +38,70 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
+  - id: cordella-gr # unique identifier
+    name: www.cordella.gr
+    description: 'Wedding list project site.' # default=empty
+    url: 'https://www.cordella.gr' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: kairos247-gr # unique identifier
+    name: www.kairos247.gr
+    description: 'Weather project site.' # default=empty
+    url: 'https://www.kairos247.gr' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-paidika-paramythia-gr # unique identifier
+    name: www.paidika-paramythia.gr
+    description: 'Fairy tales project site.' # default=empty
+    url: 'https://www.paidika-paramythia.gr' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-apeiro-gr # unique identifier
+    name: www.apeiro.gr
+    description: 'Apeiro science news project site.' # default=empty
+    url: 'https://www.apeiro.gr' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-mytaper-gr # unique identifier
+    name: www.mytaper.gr
+    description: 'Tupperware science news project site.' # default=empty
+    url: 'https://www.mytaper.gr/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-oneirokriths123-com # unique identifier
+    name: www.oneirokriths123.com
+    description: 'Dreams project site.' # default=empty
+    url: 'https://www.oneirokriths123.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-linuxinsider-gr # unique identifier
+    name: www.linuxinsider.gr
+    description: 'Linux news project site.' # default=empty
+    url: 'https://www.linuxinsider.gr/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+
+  - id: www-ewoman-gr # unique identifier
+    name: www.ewoman.gr
+    description: 'Woman blog project site.' # default=empty
+    url: 'https://www.ewoman.gr/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
 
   - id: www-aggelies247-com
     name: www.aggelies247.com
@@ -46,8 +110,41 @@ monitors:
     method: GET
     expectStatus: 200
 
+  - id: www-koytsompolio-gr # unique identifier
+    name: www.koytsompolio.gr
+    description: 'News project site.' # default=empty
+    url: 'https://www.koytsompolio.gr/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-bitcoininsider.org # unique identifier
+    name: www.bitcoininsider.org
+    description: 'Bitcoin news project site.' # default=empty
+    url: 'https://www.bitcoininsider.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: www-zwdia123-org # unique identifier
+    name: www.zwdia123.org
+    description: 'Zwdia project site.' # default=empty
+    url: 'https://www.zwdia123.org/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
   - id: dimitris-apeiro--gr
     name: Dimitris Kalamaras Blog
     url: 'https://dimitris.apeiro.gr/'
     method: GET
     expectStatus: 200
+
+  - id: www-asfaleia-autokinitou-com # unique identifier
+    name: www.asfaleia-autokinitou.com
+    description: 'A project site.' # default=empty
+    url: 'https://www.asfaleia-autokinitou.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
