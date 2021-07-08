@@ -38,14 +38,6 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: cordella-gr # unique identifier
-    name: www.cordella.gr
-    description: 'Wedding list project site.' # default=empty
-    url: 'https://www.cordella.gr' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-
   - id: kairos247-gr # unique identifier
     name: www.kairos247.gr
     description: 'Weather project site.' # default=empty
@@ -93,7 +85,6 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-
 
   - id: www-ewoman-gr # unique identifier
     name: www.ewoman.gr
